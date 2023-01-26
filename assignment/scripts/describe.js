@@ -138,9 +138,17 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - colorOne and colorTwo are flipped, should be
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+
 if (mix === true) {
   colorOne = 'purple';
 }
+
+//FIX - colorTwo is unchanged by current logic. 
+// colorTwo = 'purple'; 
+// should be included between the brackets {} 
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -154,6 +162,10 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+//FIX - the columns indicate an 'or' operator, and should be changed to && in order to
+// produce the desired effect.
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -169,5 +181,14 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+//FIX - the logic checks minAge and age in reverse; it is also using the wrong operator;
+// the conosole log readout is also flipped once the logic is corrected.
+// it should read: 
+//  if (age >= minAge ) {
+//    console.log('enter');
+//  } else {
+//    console.log('no entry);
+//  }
+
 */
 
