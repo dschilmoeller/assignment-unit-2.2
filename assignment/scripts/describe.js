@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called 'name' and set it's initial value to 'Dane'.
+// We check if the variable name is precisely equal to the value of 'Mary'. If so, we log 'Hi, Mary!' to the console.
+// We have the console log "How do you do?" in the event the variable name does NOT equal Mary.
 //
 
 //CODE
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create a variable 'secret' with a null value.
+// we create a variable 'code' with a value of integer 123.
+// we have a logic chain to check if code is equal to exactly the integer 123. If so, it changes the variable 'secret' to string 'super' and changes the variable code by multiplying it by 2 times.
+// we have a second piece of logic check if code is greater than 250. In that case, the variable 'secret' is changed to string 'duper'. As 123*2 is less than 250, this piece of logic does nothing in this
+// particular snippet.
+// we log the value of 'secret'; in this case it should be 'super' as 123*2 is 246, which is insufficient to change 'super' to 'duper' in the second piece of logic.
 
 //CODE
 /*
@@ -70,10 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set three variables: 'isStudent', a boolean set to true; 'age', an integer set to 34; and 'zip', an integer set to 55407.
+// We have a logic chain that first checks if isStudent is true and zip is greater than 80000. Both are required for the initial logic to fire (logging 'You're a student on the west coast'). 
+// The next elif logic chain fires in the event EITHER isStudent is false or age is less than 30; it logs 'What are your hobbies' to the console.
+// The 3rd elif chain fires in the event isStudent is true (and in this case, zip is <= 80000) and logs 'Welcome to Prime' to the console.
+// The final else logic covers all other cases not covered by the logic in the first three, and simply logs 'How about the weather' to the console. Clearly, this is the beginnings of a chatbot aimed
+// at midwesterners. 
 
 //CODE
 /*
